@@ -1,0 +1,43 @@
+package task1;
+
+public class Main {
+
+	public static void main(String[] args) {
+	Atm a=new Atm();
+	Maintain m=new Maintain();
+	GFG g=new GFG();
+	a.setTwothousandcount(20);
+	a.setTwothousandcount(100);
+	a.setTwothousandcount(100);
+	a.getTwothousand();
+	a.getFivehundred();
+	a.getHundread();
+	m.setNo(101);
+	m.setName("Suresh");
+	m.setPin(2343);
+	m.setBal(25234);
+	
+	m.setNo(102);
+	m.setName("Ganesh");
+	m.setPin(5432);
+	m.setBal(34123);
+	
+	m.setNo(103);
+	m.setName("Mahesh");
+	m.setPin(7854);
+	m.setBal(26100);
+	
+	m.setNo(104);
+	m.setName("Naresh");
+	m.setPin(2345);
+	m.setBal(80000);
+	
+	m.setNo(105);
+	m.setName("Harish");
+	m.setPin(1907);
+	m.setBal(103400);
+	
+
+	}
+
+}
